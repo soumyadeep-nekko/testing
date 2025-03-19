@@ -787,28 +787,28 @@ def remove_last_line(text):
 # SECRETS = load_dict_from_json(secrets_file)
 
 # Replace these with your actual AWS credentials
-aws_access_key_id = SECRETS["aws_access_key_id"]
-aws_secret_access_key = SECRETS["aws_secret_access_key"]
-INFERENCE_PROFILE_ARN = SECRETS["INFERENCE_PROFILE_ARN"]
-REGION = SECRETS["REGION"]
-GPT_ENDPOINT = SECRETS["GPT_ENDPOINT"]
-GPT_API = SECRETS["GPT_API"]
-DALLE_ENDPOINT = SECRETS["DALLE_ENDPOINT"]
-TAVILY_API = SECRETS["TAVILY_API"]
-WHATSAPP_TOKEN = SECRETS["WHATSAPP_TOKEN"]
-EMAIL_ID = SECRETS["EMAIL_ID"]
-EMAIL_PWD = SECRETS["EMAIL_PWD"]
+aws_access_key_id = "aws_access_key_id"
+aws_secret_access_key = "aws_secret_access_key"
+INFERENCE_PROFILE_ARN = "INFERENCE_PROFILE_ARN"
+REGION = "REGION"
+GPT_ENDPOINT = "GPT_ENDPOINT"
+GPT_API = "GPT_API"
+DALLE_ENDPOINT = "DALLE_ENDPOINT"
+TAVILY_API = "TAVILY_API"
+WHATSAPP_TOKEN = "WHATSAPP_TOKEN"
+EMAIL_ID = "EMAIL_ID"
+EMAIL_PWD = "EMAIL_PWD"
 
 # Paths for saving index and metadata
-FAISS_INDEX_PATH = SECRETS["FAISS_INDEX_PATH"]
-METADATA_STORE_PATH = SECRETS["METADATA_STORE_PATH"]
+FAISS_INDEX_PATH = "FAISS_INDEX_PATH"
+METADATA_STORE_PATH = "METADATA_STORE_PATH"
 
 # AWS S3 setup
-s3_bucket_name = SECRETS["s3_bucket_name"]
+s3_bucket_name = "s3_bucket_name"
 
 # Azure Blob Storage setup
-connection_string = SECRETS["connection_string"]
-s3_bucket_name = SECRETS["container_name"]
+connection_string = "connection_string"
+s3_bucket_name = "container_name"
 
 # Users File Path 
 # users_file = "../users.json"
